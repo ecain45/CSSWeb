@@ -93,8 +93,8 @@ hr{
 }
 .bottomCloud{
   position: absolute;
-    bottom: 220px;
-  left: 300px;
+  bottom: 60%;
+  left: 30%;
 }
 
 .bottom-container{
