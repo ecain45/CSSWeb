@@ -28,14 +28,15 @@ h3{
 
 p{
   font-family: Nanum Gothic;
+  color: #40514E;
 }
 
 hr{
   border-style: dotted none none;
-  color: #11999E;
-  height: 1px;
-  width: 30px;
-  border-width: 10px 30px;
+  color: #EAF6F6;
+  height: 5px;
+  width: 90px;
+  border-width: 10px 10px;
 }
 
 .nameHeader{
@@ -65,10 +66,13 @@ hr{
 .blenderImg{
   float: right;
   margin-right: 30px;
+  width: 25%;
 }
 
 .computerImg{
   float: left;
+  width: 25%;
+  border-radius: 100%;
   margin-right: 30px;
 }
 
@@ -82,8 +86,47 @@ hr{
   top: 50px;
   right: 300px;
 }
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 12px;
+}
 .bottomCloud{
   position: absolute;
     bottom: 220px;
   left: 300px;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  color: #11999E;
+  margin-top: 25px;
+  padding: 25px 0 5px 0;
+}
+
+.pContact{
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: #58afe8;
+  background-image: linear-gradient(top, #58afe8, #1672ab);
+  background-image: linear-gradient(to bottom, #58afe8, #1672ab);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 5px 3px 6px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(top, #3cb0fd, #115785);
+  background-image: linear-gradient(to bottom, #3cb0fd, #115785);
+  text-decoration: none;
 }
